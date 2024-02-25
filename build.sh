@@ -12,7 +12,7 @@ crave set --projectID 36
 crave run --no-patch -- "rm -rf .repo/local_manifests && \
 
 # Clone local_manifests repository
-git clone https://github.com/rktdnt/local_manifest --depth 1 -b lineage-21 .repo/local_manifests && \
+git clone https://github.com/rktdnt/local_manifest --depth 1 -b lineage-21.0 .repo/local_manifests && \
 
 # Sync the repositories
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags && \ 
