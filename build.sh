@@ -11,7 +11,7 @@ repo init --depth 1 -u https://github.com/LineageOS/android.git -b lineage-21.0 
 crave run --no-patch -- "rm -rf .repo/local_manifests && \
 
 # Initialize repo with specified manifest
-repo init -u https://github.com/Evolution-X/manifest -b udc ;\
+repo init -u https://github.com/crdroidandroid/android.git -b 14.0 --git-lfs \
 
 # Clone local_manifests repository
 git clone https://github.com/rktdnt/local_manifest --depth 1 -b lineage-21.0 .repo/local_manifests && \
