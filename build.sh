@@ -44,4 +44,4 @@ crave pull out/target/product/*/*.zip
 # Pull generated img files
 crave pull out/target/product/*/*.img
 
-curl --progress-bar -T "tissot/*" https://pixeldrain.com/api/file/ | cat
+curl --progress-bar -T "tissot/*.zip" https://pixeldrain.com/api/file/ | cat
