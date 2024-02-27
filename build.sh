@@ -5,11 +5,13 @@ set -e
 
 # Initialize repo with specified manifest
 repo init --depth 1 -u https://github.com/LineageOS/android.git -b lineage-21.0 --git-lfs
-crave set --projectID 36
 
 # Run inside foss.crave.io devspace, in the project folder
 # Remove existing local_manifests
 crave run --no-patch -- "rm -rf .repo/local_manifests && \
+
+# Initialize repo with specified manifest
+repo init -u https://github.com/Evolution-X/manifest -b udc ;\
 
 # Clone local_manifests repository
 git clone https://github.com/rktdnt/local_manifest --depth 1 -b lineage-21.0 .repo/local_manifests && \
@@ -34,7 +36,7 @@ cat out/build_date.txt; echo \
 sha256sum out/target/product/*/*.zip"
 
 # Clean up
-rm -rf oxygen/
+rm -rf tissot/
 
 # Pull generated zip files
 crave pull out/target/product/*/*.zip 
