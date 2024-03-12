@@ -11,7 +11,7 @@
         <project path="vendor/xiaomi/sm6115-common" name="vendor_xiaomi_sm6115-common" remote="cheldump" revision="u" clone-depth="1" />
         <project path="device/xiaomi/citrus" name="device_xiaomi_citrus" remote="cheldump" revision="u" clone-depth="1" />
         <project path="vendor/xiaomi/citrus" name="vendor_xiaomi_citrus" remote="cheldump" revision="u" clone-depth="1" />
-        <project path="kernel/xiaomi/sm6115" name="kernel_xiaomi_chime" remote="lilium" revision="lineage-21" clone-depth="1" />
+        <project path="kernel/xiaomi/sm6115" name="kernel_xiaomi_chime" remote="lilium" revision="ursinia" clone-depth="1" />
         <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LineageOS" revision="lineage-21" />
 
 </manifest>
