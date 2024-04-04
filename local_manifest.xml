@@ -11,7 +11,7 @@
         <project path="vendor/xiaomi/msm8953-common" name="proprietary_vendor_xiaomi_msm8953-common" remote="cheldump" revision="lineage-21" clone-depth="1" />
         <project path="device/xiaomi/tissot" name="android_device_xiaomi_tissot" remote="cheldump" revision="lineage-21" clone-depth="1" />
         <project path="vendor/xiaomi/tissot" name="proprietary_vendor_xiaomi_tissot" remote="cheldump" revision="lineage-21" clone-depth="1" />
-        <project path="kernel/xiaomi/msm8953" name="msm8953-los21" remote="msm8953-xiaomi" revision="master" clone-depth="1" />
+        <project path="kernel/xiaomi/msm8953" name="msm8953-los21" remote="cheldump" revision="master" clone-depth="1" />
         <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LineageOS" revision="lineage-21" clone-depth="1" />
         
 </manifest>
