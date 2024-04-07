@@ -16,9 +16,9 @@ cd frameworks/native || exit 1
 curl https://github.com/AOSP-14-RMX2020/platform_frameworks_native/commit/804633ed9ffbec2e3b6e038b5ac3357e1f681e67.patch | git am -3
 cd ../..
 
-cd frameworks/av && git fetch https://github.com/orkunsdumps/frameworks_av_pos && git cherry-pick a5a645e^..1715e1b
+cd frameworks/av && git fetch https://github.com/orkunsdumps/frameworks_av_pos && git cherry-pick a5a645e^..1715e1b && cd ../..
 
 #beelding
 . build/envsetup.sh
 lunch aosp_lancelot-userdebug
-mka bacon
+make bacon
