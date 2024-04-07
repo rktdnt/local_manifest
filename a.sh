@@ -20,5 +20,5 @@ cd frameworks/av && git fetch https://github.com/orkunsdumps/frameworks_av_pos &
 
 #beelding
 . build/envsetup.sh
-lunch aosp_lancelot-userdebug
+lunch aosp_lancelot-ap1a-userdebug
 make bacon
