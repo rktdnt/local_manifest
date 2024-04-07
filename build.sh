@@ -9,7 +9,7 @@ repo init -u https://github.com/LineageOS/android.git -b lineage-21.0 --git-lfs
 crave run --no-patch -- "wget -O a.sh https://raw.githubusercontent.com/rktdnt/local_manifest/lance/a.sh && chmod +x a.sh && ./a.sh" 
 
 # Clean up
-rm -rf tissot/
+rm -rf lancelot/
 
 # Pull generated zip files
 crave pull out/target/product/*/*.zip 
