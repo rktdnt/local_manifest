@@ -20,7 +20,7 @@ git clone --depth=1 https://github.com/PixelOS-AOSP/frameworks_native frameworks
 rm -rf */xiaomi
 git clone --depth=1 https://github.com/cheldump/device_xiaomi_lancelot device/xiaomi/lancelot
 git clone --depth=1 https://github.com/cheldump/vendor_xiaomi_lancelot vendor/xiaomi/lancelot
-git clone --depth=1 https://github.com/Yourfurina/kernel_xiaomi_mt6768 kernel/xiaomi/lancelot
+git clone --depth=1 https://gitlab.com/MT6768Lab/KernelTree kernel/xiaomi/lancelot
 git clone --depth=1 https://github.com/LineageOS/android_hardware_xiaomi hardware/xiaomi
 
 #beelding
