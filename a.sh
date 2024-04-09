@@ -26,4 +26,4 @@ git clone --depth=1 https://github.com/LineageOS/android_hardware_xiaomi hardwar
 #beelding
 . build/envsetup.sh
 lunch aosp_lancelot-ap1a-userdebug
-make bacon
+make installclean && make bacon
