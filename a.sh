@@ -13,14 +13,14 @@ git clone https://github.com/LineageOS/android_device_mediatek_sepolicy_vndr dev
 # patches
 rm -rf frameworks/av
 git clone --depth=1 https://github.com/cheldump/frameworks_av frameworks/av
-rm -rf frameworks/native
-git clone --depth=1 https://github.com/PixelOS-AOSP/frameworks_native frameworks/native
 
 # trees
 rm -rf */xiaomi
-git clone --depth=1 https://github.com/cheldump/device_xiaomi_lancelot device/xiaomi/lancelot
-git clone --depth=1 https://github.com/cheldump/vendor_xiaomi_lancelot vendor/xiaomi/lancelot
-git clone --depth=1 https://gitlab.com/MT6768Lab/KernelTree kernel/xiaomi/lancelot
+git clone --depth=1 https://github.com/cheldump/android_device_xiaomi_lancelot device/xiaomi/lancelot
+git clone --depth=1 https://github.com/cheldump/proprietary_vendor_xiaomi_lancelot vendor/xiaomi/lancelot
+git clone --depth=1 https://github.com/cheldump/android_device_xiaomi_mt6768-common device/xiaomi/mt6768-common
+git clone --depth=1 https://github.com/cheldump/proprietary_vendor_xiaomi_mt6768-common vendor/xiaomi/mt6768-common
+git clone --depth=1 https://gitlab.com/MT6768Lab/KernelTree kernel/xiaomi/mt6768
 git clone --depth=1 https://github.com/LineageOS/android_hardware_xiaomi hardware/xiaomi
 
 #beelding
