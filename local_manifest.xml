@@ -4,12 +4,16 @@
         <!-- Remote -->
         <remote name="cheldump" fetch="https://github.com/cheldump" />
         <remote name="LineageOS" fetch="https://github.com/LineageOS" />
-        <remote name="lancekernel" fetch="https://github.com/Yourfurina" />
+        <remote name="lancekernel" fetch="https://gitlab.com/MT6768Lab" />
 
         <!-- Trees -->
-        <project path="device/xiaomi/lancelot" name="device_xiaomi_lancelot" remote="cheldump" revision="fourteen" clone-depth="1" />
-        <project path="vendor/xiaomi/lancelot" name="vendor_xiaomi_lancelot" remote="cheldump" revision="fourteen" clone-depth="1" />
-        <project path="kernel/xiaomi/lancelot" name="kernel_xiaomi_mt6768" remote="lancekernel" revision="14.0" clone-depth="1" />
+        <project path="device/xiaomi/lancelot" name="android_device_xiaomi_lancelot" remote="cheldump" revision="fourteen" clone-depth="1" />
+        <project path="device/xiaomi/mt6768-common" name="android_device_xiaomi_mt6768-common" remote="cheldump" revision="fourteen" clone-depth="1" />
+        <project path="vendor/xiaomi/lancelot" name="proprietary_vendor_xiaomi_lancelot" remote="cheldump" revision="fourteen" clone-depth="1" />
+        <project path="vendor/xiaomi/mt6768-common" name="proprietary_vendor_xiaomi_mt6768-common" remote="cheldump" revision="fourteen" clone-depth="1" />
+        <project path="kernel/xiaomi/mt6768" name="KernelTree" remote="lancekernel" revision="13" clone-depth="1" />
         <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LineageOS" revision="lineage-21" clone-depth="1" />
+        <project path="hardware/mediatek" name="android_hardware_mediatek" remote="LineageOS" revision="lineage-21" clone-depth="1" />
+
         
 </manifest>
