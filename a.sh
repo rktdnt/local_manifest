@@ -13,6 +13,10 @@ git clone --depth=1 https://github.com/cheldump/vendor_xiaomi_citrus vendor/xiao
 git clone --depth=1 https://github.com/liliumproject/kernel_xiaomi_chime kernel/xiaomi/sm6115
 git clone --depth=1 https://github.com/cheldump/android_hardware_xiaomi hardware/xiaomi
 
+#lu kanjut
+rm -rf packages/resources/devicesettings
+git clone --depth=1 https://github.com/PixelExperience/packages_resources_devicesettings packages/resources/devicesettings
+
 #beelding
 . build/envsetup.sh
 lunch aosp_citrus-ap1a-userdebug
