@@ -16,6 +16,8 @@ git clone --depth=1 https://github.com/cheldump/android_hardware_xiaomi hardware
 #lu kanjut
 rm -rf packages/resources/devicesettings
 git clone --depth=1 https://github.com/PixelExperience/packages_resources_devicesettings packages/resources/devicesettings
+rm -rf hardware/st/nfc
+git clone --depth=1 https://github.com/AOSPA/android_hardware_st_nfc hardware/st/nfc
 
 #beelding
 . build/envsetup.sh
