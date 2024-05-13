@@ -15,7 +15,7 @@ git clone --depth=1 https://github.com/cheldump/frameworks_av frameworks/av
 rm -rf */xiaomi
 git clone --depth=1 https://github.com/cheldump/device_xiaomi_lancelot device/xiaomi/lancelot
 git clone --depth=1 https://github.com/cheldump/vendor_xiaomi_lancelot vendor/xiaomi/lancelot
-git clone --depth=1 https://gitlab.com/MT6768Lab/KernelTree kernel/xiaomi/mt6768 -b 14
+git clone --depth=1 https://gitlab.com/MT6768Lab/KernelTree kernel/xiaomi/lancelot -b 14
 git clone --depth=1 https://github.com/LineageOS/android_hardware_xiaomi hardware/xiaomi
 
 #beelding
