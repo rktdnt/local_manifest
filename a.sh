@@ -1,7 +1,6 @@
 rm -rf .repo/local_manifest
 # Clone local_manifests repository
-git clone https://github.com/rktdnt/local_manifests --depth 1 -b lance .repo/local_manifests
-repo init -u https://github.com/crdroidandroid/android.git -b 14.0 --git-lfs
+repo init -u https://github.com/RisingTechOSS/android -b fourteen --git-lfs
 /opt/crave/resync.sh
 
 # trees
@@ -15,5 +14,5 @@ git clone --depth=1 https://github.com/LineageOS/android_hardware_xiaomi hardwar
 
 #beelding
 . build/envsetup.sh
-brunch tissot
-make installclean && make bacon
+riseup tissot userdebug
+rise b
