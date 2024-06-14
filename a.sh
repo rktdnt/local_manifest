@@ -1,6 +1,5 @@
 rm -rf .repo/local_manifest
 # Clone local_manifests repository
-repo init -u https://github.com/RisingTechOSS/android -b fourteen --git-lfs
 /opt/crave/resync.sh
 
 # trees
@@ -14,5 +13,5 @@ git clone --depth=1 https://github.com/LineageOS/android_hardware_xiaomi hardwar
 
 #beelding
 . build/envsetup.sh
-riseup tissot userdebug
-rise b
+lunch lineage_tissot-ap1a-userdebug
+make bacon
