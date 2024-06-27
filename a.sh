@@ -1,6 +1,5 @@
-rm -rf .repo/local_manifest
-# Clone local_manifests repository
-git clone https://github.com/rktdnt/local_manifests --depth 1 -b lance .repo/local_manifests
+# sync
+repo init -u https://github.com/PixelOS-AOSP/manifest.git -b fourteen --git-lfs --depth=1
 /opt/crave/resync.sh
 
 # extras be4 beelding
