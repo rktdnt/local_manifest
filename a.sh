@@ -2,6 +2,9 @@
 repo init -u https://github.com/PixelOS-AOSP/manifest.git -b fourteen --git-lfs --depth=1
 /opt/crave/resync.sh
 
+rm -rf vendor/aosp/signing/keys
+git clone https://github.com/rktdnt/p3 -b pos vendor/aosp/signing/keys
+
 # extras be4 beelding
 rm -rf hardware/mediatek
 git clone https://github.com/LineageOS/android_hardware_mediatek hardware/mediatek -b lineage-21
