@@ -17,3 +17,10 @@ crave pull out/target/product/*/*.zip
 
 # Pull generated img files
 crave pull out/target/product/*/*.img
+
+# upload
+git clone https://github.com/rktdnt/releases
+rm -rf *ota*.zip
+mv *.zip releases/
+cd releases
+bash release.sh
