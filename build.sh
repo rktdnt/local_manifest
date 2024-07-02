@@ -17,6 +17,7 @@ crave pull out/target/product/*/*.zip
 crave pull out/target/product/*/*.img
 
 # upload
+cd tissot
 git clone https://github.com/rktdnt/releases
 rm -rf *ota*.zip
 mv *.zip releases/
