@@ -1,4 +1,4 @@
-#repo init -u https://github.com/RisingTechOSS/android -b fourteen --git-lfs
+repo init -u https://github.com/DerpFest-AOSP/manifest.git -b 14 --git-lfs
 /opt/crave/resync.sh
 
 # signing
