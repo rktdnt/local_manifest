@@ -1,9 +1,12 @@
-repo init -u https://github.com/DerpFest-AOSP/manifest.git -b 14 --git-lfs
+repo init -u https://github.com/RisingTechOSS/android -b fourteen --git-lfs
 /opt/crave/resync.sh
 
 # signing
-rm -rf vendor/derp/signing/keys
-git clone https://github.com/rktdnt/p3 -b pos vendor/derp/signing/keys
+rm -rf vendor/lineage-priv/keys
+git clone --depth=1 https://github.com/rktdnt/p3 vendor/lineage-priv/keys
+
+#rm -rf vendor/derp/signing/keys
+#git clone https://github.com/rktdnt/p3 -b pos vendor/derp/signing/keys
 
 # trees
 rm -rf */xiaomi
@@ -16,5 +19,5 @@ git clone --depth=1 https://github.com/LineageOS/android_hardware_xiaomi hardwar
 
 #beelding
 . build/envsetup.sh
-lunch derp_tissot-user
-mka derp
+riseup tissot userdebug
+rise b
