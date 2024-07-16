@@ -5,7 +5,7 @@ set -e
 
 # Initialize repo with specified manifest
 repo init -u https://github.com/LineageOS/android.git -b lineage-21.0 --git-lfs --depth=1
-crave run --no-patch --clean "wget -O a.sh https://raw.githubusercontent.com/rktdnt/local_manifest/tissot/a.sh && chmod +x a.sh && ./a.sh" 
+crave run --no-patch -- "wget -O a.sh https://raw.githubusercontent.com/rktdnt/local_manifest/tissot/a.sh && chmod +x a.sh && ./a.sh" 
 
 # Clean up
 rm -rf tissot/
