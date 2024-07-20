@@ -1,4 +1,4 @@
-repo init -u https://github.com/RisingTechOSS/android -b fourteen --git-lfs
+#
 /opt/crave/resync.sh
 
 # signing
