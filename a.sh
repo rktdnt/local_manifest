@@ -17,7 +17,7 @@ rm -rf */xiaomi
 git clone --depth=1 https://github.com/cheldump/device_xiaomi_lancelot device/xiaomi/lancelot
 git clone --depth=1 https://github.com/cheldump/vendor_xiaomi_lancelot vendor/xiaomi/lancelot
 git clone --depth=1 https://gitlab.com/MT6768Lab/KernelTree kernel/xiaomi/lancelot -b 14
-git clone --depth=1 https://github.com/PixelOS-AOSP/android_hardware_xiaomi hardware/xiaomi
+git clone --depth=1 https://github.com/PixelOS-AOSP/hardware_xiaomi hardware/xiaomi
 
 #beelding
 . build/envsetup.sh
