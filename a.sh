@@ -1,6 +1,8 @@
 #
 /opt/crave/resync.sh
 
+rm -rf out
+
 # signing
 rm -rf vendor/lineage-priv/keys
 git clone --depth=1 https://github.com/rktdnt/p3 vendor/lineage-priv/keys
