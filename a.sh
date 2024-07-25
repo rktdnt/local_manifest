@@ -21,5 +21,5 @@ git clone --depth=1 https://github.com/PixelOS-AOSP/hardware_xiaomi hardware/xia
 
 #beelding
 . build/envsetup.sh
-lunch aosp_lancelot-ap2a-userdebug
+lunch aosp_lancelot-ap2a-user
 make installclean && mka bacon
