@@ -1,7 +1,6 @@
 #
 repo init -u https://github.com/ProjectEverest/manifest -b qpr3 --git-lfs
 /opt/crave/resync.sh
-repo forall -c 'git lfs install && git lfs pull && git lfs checkout'
 
 # signing
 #rm -rf vendor/lineage-priv/keys
