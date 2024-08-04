@@ -21,4 +21,4 @@ git clone --depth=1 https://github.com/LineageOS/android_hardware_xiaomi hardwar
 #beelding
 . build/envsetup.sh
 peak tissot user
-climb b -j$(nproc --all)
+climb m -j$(nproc --all)
