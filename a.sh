@@ -1,5 +1,4 @@
 #
-repo init -u https://github.com/ProjectEverest/manifest -b qpr3 --git-lfs
 /opt/crave/resync.sh
 
 # signing
@@ -20,5 +19,5 @@ git clone --depth=1 https://github.com/LineageOS/android_hardware_xiaomi hardwar
 
 #beelding
 . build/envsetup.sh
-peak tissot user
-climb m -j$(nproc --all)
+riseup tissot user
+rise b -j$(nproc --all)
