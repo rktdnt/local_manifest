@@ -3,11 +3,11 @@ repo init -u https://github.com/ProjectEverest/manifest -b qpr3 --git-lfs
 /opt/crave/resync.sh
 
 # signing
-#rm -rf vendor/lineage-priv/keys
-#git clone --depth=1 https://github.com/rktdnt/p3 vendor/lineage-priv/keys
+rm -rf vendor/lineage-priv/keys
+git clone --depth=1 https://github.com/rktdnt/p3 vendor/lineage-priv/keys
 
-rm -rf vendor/everest/signing/keys
-git clone https://github.com/rktdnt/p3 -b pos vendor/everest/signing/keys
+#rm -rf vendor/everest/signing/keys
+#git clone https://github.com/rktdnt/p3 -b pos vendor/everest/signing/keys
 
 # trees
 rm -rf */xiaomi
