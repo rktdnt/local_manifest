@@ -8,9 +8,6 @@ git clone --depth=1 https://github.com/rktdnt/p3 vendor/lineage-priv/keys
 #rm -rf vendor/everest/signing/keys
 #git clone https://github.com/rktdnt/p3 -b pos vendor/everest/signing/keys
 
-rm -rf device/qcom/sepolicy-legacy-um
-git clone https://github.com/cheldump/android_device_qcom_sepolicy -b lineage-21.0-legacy-um device/qcom/sepolicy-legacy-um
-
 # trees
 rm -rf */xiaomi
 git clone --depth=1 https://github.com/cheldump/android_device_xiaomi_msm8953-common device/xiaomi/msm8953-common
@@ -22,5 +19,5 @@ git clone --depth=1 https://github.com/LineageOS/android_hardware_xiaomi hardwar
 
 #beelding
 . build/envsetup.sh
-riseup tissot user
-rise b -j$(nproc --all)
+lunch lineage_tissot-user
+make bacon -j$(nproc --all)
