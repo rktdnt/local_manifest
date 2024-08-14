@@ -15,7 +15,7 @@ git clone --depth=1 https://github.com/cheldump/proprietary_vendor_xiaomi_msm895
 git clone --depth=1 https://github.com/cheldump/android_device_xiaomi_tissot device/xiaomi/tissot
 git clone --depth=1 https://github.com/cheldump/proprietary_vendor_xiaomi_tissot vendor/xiaomi/tissot
 git clone --depth=1 https://github.com/xiaomi-msm8953-devs/android_kernel_xiaomi_msm8953 kernel/xiaomi/msm8953
-git clone --depth=1 https://github.com/LineageOS/android_hardware_xiaomi hardware/xiaomi
+git clone --depth=1 https://github.com/PixelOS-AOSP/hardware_xiaomi hardware/xiaomi
 
 #beelding
 . build/envsetup.sh
