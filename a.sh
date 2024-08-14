@@ -19,5 +19,5 @@ git clone --depth=1 https://github.com/LineageOS/android_hardware_xiaomi hardwar
 
 #beelding
 . build/envsetup.sh
-lunch lineage_tissot-user
+lunch lineage_tissot-ap2a-user
 make bacon -j$(nproc --all)
