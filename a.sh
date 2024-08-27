@@ -19,5 +19,5 @@ git clone --depth=1 https://github.com/PixelOS-AOSP/hardware_xiaomi hardware/xia
 
 #beelding
 . build/envsetup.sh
-riseup tissot user
-rise b
+lunch lineage_tissot-ap2a-user
+make bacon -j$(nproc --all)
