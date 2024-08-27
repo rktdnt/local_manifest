@@ -10,7 +10,7 @@ git clone --depth=1 https://github.com/rktdnt/p3 vendor/lineage-priv/keys
 
 # trees
 rm -rf */xiaomi
-git clone --depth=1 https://github.com/cheldump/android_device_xiaomi_msm8953-common -b lineg device/xiaomi/msm8953-common
+git clone --depth=1 https://github.com/cheldump/android_device_xiaomi_msm8953-common device/xiaomi/msm8953-common
 git clone --depth=1 https://github.com/cheldump/proprietary_vendor_xiaomi_msm8953-common vendor/xiaomi/msm8953-common
 git clone --depth=1 https://github.com/cheldump/android_device_xiaomi_tissot -b lineg device/xiaomi/tissot
 git clone --depth=1 https://github.com/cheldump/proprietary_vendor_xiaomi_tissot vendor/xiaomi/tissot
