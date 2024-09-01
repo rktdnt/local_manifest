@@ -17,6 +17,8 @@ git clone --depth=1 https://github.com/cheldump/proprietary_vendor_xiaomi_tissot
 git clone --depth=1 https://github.com/cheldump/android_kernel_xiaomi_msm8953 kernel/xiaomi/msm8953
 git clone --depth=1 https://github.com/PixelOS-AOSP/hardware_xiaomi hardware/xiaomi
 
+rm -rf prebuilts/clang/host/linux-x86/clang-r510928
+
 #beelding
 . build/envsetup.sh
 riseup tissot user
