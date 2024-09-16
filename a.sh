@@ -18,6 +18,11 @@ git clone --depth=1 https://github.com/plrine/proprietary_vendor_xiaomi_tissot v
 git clone --depth=1 https://github.com/plrine/android_kernel_xiaomi_msm8953 kernel/xiaomi/msm8953
 git clone --depth=1 https://github.com/LineageOS/android_hardware_xiaomi hardware/xiaomi
 
+# hals
+git clone --depth=1 https://github.com/LineageOS/android_hardware_qcom_media -b lineage-21.0-caf-msm8996 hardware/qcom-caf/msm8996/media
+git clone --depth=1 https://github.com/LineageOS/android_hardware_qcom_audio -b lineage-21.0-caf-msm8996 hardware/qcom-caf/msm8996/audio
+git clone --depth=1 https://github.com/LineageOS/android_hardware_qcom_display -b lineage-21.0-caf-msm8996 hardware/qcom-caf/msm8996/display
+
 #beelding
 . build/envsetup.sh
 lunch tissot-ap3a-user
