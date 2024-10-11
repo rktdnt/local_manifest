@@ -1,4 +1,5 @@
 #
+repo init -u https://github.com/LineageOS/android.git -b lineage-22.0 --git-lfs
 /opt/crave/resync.sh
 
 # signing
@@ -24,5 +25,5 @@ git clone --depth=1 https://github.com/plrine/hardware_xiaomi hardware/xiaomi
 
 #beelding
 . build/envsetup.sh
-lunch lineage_tissot-ap2a-user
+lunch lineage_tissot-ap3a-user
 make bacon -j$(nproc --all)
