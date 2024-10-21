@@ -13,6 +13,9 @@ rm -rf hardware/mediatek
 git clone https://github.com/LineageOS/android_hardware_mediatek hardware/mediatek -b lineage-21
 rm -rf device/mediatek/sepolicy_vndr
 git clone https://github.com/LineageOS/android_device_mediatek_sepolicy_vndr device/mediatek/sepolicy_vndr -b lineage-21 
+rm -rf vendor/extras
+git clone https://github.com/plrine/vendor_extras vendor/extras
+
 
 # trees
 rm -rf */xiaomi
