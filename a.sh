@@ -16,9 +16,9 @@ git clone https://github.com/LineageOS/android_device_mediatek_sepolicy_vndr dev
 
 # trees
 rm -rf */xiaomi
-git clone --depth=1 https://github.com/cheldump/device_xiaomi_lancelot device/xiaomi/lancelot
-git clone --depth=1 https://github.com/cheldump/vendor_xiaomi_lancelot vendor/xiaomi/lancelot
-git clone --depth=1 https://github.com/cheldump/kernel_xiaomi_lancelot kernel/xiaomi/lancelot -b 14
+git clone --depth=1 https://github.com/plrine/device_xiaomi_lancelot device/xiaomi/lancelot
+git clone --depth=1 https://github.com/plrine/vendor_xiaomi_lancelot vendor/xiaomi/lancelot
+git clone --depth=1 https://github.com/plrine/kernel_xiaomi_lancelot kernel/xiaomi/lancelot -b 14
 git clone --depth=1 https://github.com/LineageOS/android_hardware_xiaomi hardware/xiaomi
 
 #beelding
