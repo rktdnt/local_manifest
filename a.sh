@@ -15,7 +15,7 @@ git clone --depth=1 https://github.com/plrine/proprietary_vendor_xiaomi_msm8953-
 git clone --depth=1 https://github.com/plrine/android_device_xiaomi_tissot device/xiaomi/tissot
 git clone --depth=1 https://github.com/plrine/proprietary_vendor_xiaomi_tissot vendor/xiaomi/tissot
 git clone --depth=1 https://github.com/plrine/android_kernel_xiaomi_msm8953 kernel/xiaomi/msm8953
-git clone --depth=1 https://github.com/LineageOS/android_hardware_xiaomi hardware/xiaomi
+git clone --depth=1 https://github.com/PixelOS-AOSP/hardware_xiaomi hardware/xiaomi
 
 # hals
 #git clone --depth=1 https://github.com/LineageOS/android_hardware_qcom_media -b lineage-21.0-caf-msm8996 hardware/qcom-caf/msm8996/media
