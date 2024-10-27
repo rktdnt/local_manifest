@@ -1,5 +1,4 @@
 #
-repo init -u https://github.com/AospEnhanced/android_manifest -b fifteen
 /opt/crave/resync.sh
 
 # signing
