@@ -24,5 +24,5 @@ git clone --depth=1 https://github.com/LineageOS/android_hardware_xiaomi hardwar
 
 #beelding
 . build/envsetup.sh
-lunch aosp_tissot-ap3a-userdebug
+lunch aosp_tissot-ap2a-user
 mka bacon -j$(nproc --all)
