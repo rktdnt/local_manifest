@@ -5,8 +5,8 @@
 #rm -rf vendor/lineage-priv/keys
 #git clone --depth=1 https://github.com/rktdnt/p3 vendor/lineage-priv/keys
 
-#rm -rf vendor/derp/signing/keys
-#git clone https://github.com/rktdnt/p3 -b pos vendor/derp/signing/keys
+rm -rf vendor/aosp/signing/keys
+git clone https://github.com/rktdnt/p3 -b pos vendor/aosp/signing/keys
 
 # trees
 rm -rf */xiaomi
