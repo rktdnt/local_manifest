@@ -8,6 +8,10 @@
 rm -rf vendor/aosp/signing/keys
 git clone https://github.com/rktdnt/p3 -b pos vendor/aosp/signing/keys
 
+# fp
+rm -rf vendor/extra
+git clone https://github.com/plrine/fp vendor/extra
+
 # trees
 rm -rf */xiaomi
 git clone --depth=1 https://github.com/plrine/android_device_xiaomi_msm8953-common device/xiaomi/msm8953-common
