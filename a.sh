@@ -22,7 +22,7 @@ git clone --depth=1 https://github.com/plrine/android_kernel_xiaomi_msm8953 kern
 git clone --depth=1 https://github.com/PixelOS-AOSP/hardware_xiaomi hardware/xiaomi
 
 cd vendor/aosp
-git fetch https://github.com/LineageOS/android_vendor_lineage refs/changes/89/405989/1 && git cherry-pick FETCH_HEAD
+git fetch https://github.com/pos-gm/vendor_aosp && git cherry-pick 2a8e8eeb913c27618f903a88d243fa268b6a4cbe
 cd ../..
 
 # hals
