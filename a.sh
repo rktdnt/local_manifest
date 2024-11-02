@@ -5,9 +5,6 @@
 #rm -rf vendor/lineage-priv/keys
 #git clone --depth=1 https://github.com/rktdnt/p3 vendor/lineage-priv/keys
 
-rm -rf vendor/aosp
-git clone https://github.com/pos-gm/vendor_aosp vendor/aosp
-
 rm -rf vendor/aosp/signing/keys
 git clone https://github.com/rktdnt/p3 -b pos vendor/aosp/signing/keys
 
@@ -23,6 +20,10 @@ git clone --depth=1 https://github.com/plrine/android_device_xiaomi_tissot devic
 git clone --depth=1 https://github.com/plrine/proprietary_vendor_xiaomi_tissot vendor/xiaomi/tissot
 git clone --depth=1 https://github.com/plrine/android_kernel_xiaomi_msm8953 kernel/xiaomi/msm8953
 git clone --depth=1 https://github.com/PixelOS-AOSP/hardware_xiaomi hardware/xiaomi
+
+cd vendor/aosp
+git fetch https://github.com/LineageOS/android_vendor_lineage refs/changes/89/405989/1 && git cherry-pick FETCH_HEAD
+cd ../..
 
 # hals
 #git clone --depth=1 https://github.com/LineageOS/android_hardware_qcom_media -b lineage-21.0-caf-msm8996 hardware/qcom-caf/msm8996/media
