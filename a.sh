@@ -19,7 +19,7 @@ git clone --depth=1 https://github.com/plrine/proprietary_vendor_xiaomi_msm8953-
 git clone --depth=1 https://github.com/plrine/android_device_xiaomi_tissot device/xiaomi/tissot
 git clone --depth=1 https://github.com/plrine/proprietary_vendor_xiaomi_tissot vendor/xiaomi/tissot
 git clone --depth=1 https://github.com/plrine/android_kernel_xiaomi_msm8953 kernel/xiaomi/msm8953
-git clone --depth=1 https://github.com/LineageOS/android_hardware_xiaomi hardware/xiaomi
+git clone --depth=1 https://github.com/plrine/hardware_xiaomi hardware/xiaomi
 
 #cd vendor/aosp
 #git fetch https://github.com/pos-gm/vendor_aosp && git cherry-pick 2a8e8eeb913c27618f903a88d243fa268b6a4cbe
