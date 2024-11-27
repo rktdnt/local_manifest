@@ -18,7 +18,7 @@ git clone --depth=1 https://github.com/plrine/android_device_xiaomi_msm8953-comm
 git clone --depth=1 https://github.com/plrine/proprietary_vendor_xiaomi_msm8953-common vendor/xiaomi/msm8953-common
 git clone --depth=1 https://github.com/plrine/android_device_xiaomi_tissot device/xiaomi/tissot
 git clone --depth=1 https://github.com/plrine/proprietary_vendor_xiaomi_tissot vendor/xiaomi/tissot
-git clone --depth=1 https://github.com/plrine/android_kernel_xiaomi_msm8953 kernel/xiaomi/msm8953
+git clone --depth=1 https://github.com/plrine/android_kernel_xiaomi_msm8953 kernel/xiaomi/msm8953 -b lineage-21
 git clone --depth=1 https://github.com/plrine/hardware_xiaomi hardware/xiaomi
 
 #cd vendor/aosp
@@ -32,5 +32,5 @@ git clone --depth=1 https://github.com/plrine/hardware_xiaomi hardware/xiaomi
 
 #beelding
 . build/envsetup.sh
-lunch lineage_tissot-ap2a-user
+lunch lineage_tissot-ap3a-userdebug
 mka bacon -j$(nproc --all)
