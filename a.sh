@@ -26,9 +26,10 @@ git clone --depth=1 https://github.com/plrine/hardware_xiaomi hardware/xiaomi
 #cd ../..
 
 # hals
-#git clone --depth=1 https://github.com/LineageOS/android_hardware_qcom_media -b lineage-21.0-caf-msm8996 hardware/qcom-caf/msm8996/media
-#git clone --depth=1 https://github.com/LineageOS/android_hardware_qcom_audio -b lineage-21.0-caf-msm8996 hardware/qcom-caf/msm8996/audio
-#git clone --depth=1 https://github.com/LineageOS/android_hardware_qcom_display -b lineage-21.0-caf-msm8996 hardware/qcom-caf/msm8996/display
+rm -rf hardware/qcom-caf/msm8996/display
+#git clone --depth=1 https://github.com/LineageOS/android_hardware_qcom_media -b lineage-22.0-caf-msm8996 hardware/qcom-caf/msm8996/media
+#git clone --depth=1 https://github.com/LineageOS/android_hardware_qcom_audio -b lineage-22.0-caf-msm8996 hardware/qcom-caf/msm8996/audio
+git clone --depth=1 https://github.com/plrine/android_hardware_qcom_display -b lineage-22.0-caf-msm8996 hardware/qcom-caf/msm8996/display
 
 #beelding
 . build/envsetup.sh
