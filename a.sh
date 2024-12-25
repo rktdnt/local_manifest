@@ -12,6 +12,10 @@
 #rm -rf vendor/extra
 #git clone https://github.com/plrine/fp vendor/extra
 
+# wlan
+rm -rf hardware/qcom-caf/wlan
+git clone --depth=1 https://github.com/plrine/android_hardware_qcom_wlan hardware/qcom-caf/wlan
+
 # trees
 rm -rf */xiaomi
 git clone --depth=1 https://github.com/plrine/android_device_xiaomi_msm8953-common device/xiaomi/msm8953-common
