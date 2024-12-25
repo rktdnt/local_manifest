@@ -1,5 +1,6 @@
 #
 repo init -u https://github.com/LineageOS/android.git -b lineage-22.1 --git-lfs
+rm -rf hardware/qcom-caf/wlan
 /opt/crave/resync.sh
 
 # signing
@@ -14,8 +15,8 @@ repo init -u https://github.com/LineageOS/android.git -b lineage-22.1 --git-lfs
 #git clone https://github.com/plrine/fp vendor/extra
 
 # wlan
-rm -rf hardware/qcom-caf/wlan
-git clone --depth=1 https://github.com/plrine/android_hardware_qcom_wlan hardware/qcom-caf/wlan
+#rm -rf hardware/qcom-caf/wlan
+#git clone --depth=1 https://github.com/plrine/android_hardware_qcom_wlan hardware/qcom-caf/wlan
 
 # trees
 rm -rf */xiaomi
