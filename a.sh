@@ -9,10 +9,6 @@ repo init -u https://github.com/LineageOS/android.git -b lineage-22.1 --git-lfs
 #rm -rf vendor/aosp/signing/keys
 #git clone https://github.com/rktdnt/p3 -b pos vendor/aosp/signing/keys
 
-# fp
-#rm -rf vendor/extra
-#git clone https://github.com/plrine/fp vendor/extra
-
 # wlan
 #rm -rf hardware/qcom-caf/wlan
 #git clone --depth=1 https://github.com/plrine/android_hardware_qcom_wlan hardware/qcom-caf/wlan
@@ -26,6 +22,8 @@ git clone --depth=1 https://github.com/plrine/proprietary_vendor_xiaomi_tissot v
 git clone --depth=1 https://github.com/plrine/android_kernel_xiaomi_msm8953 kernel/xiaomi/msm8953 -b lineage-21
 git clone --depth=1 https://github.com/plrine/hardware_xiaomi hardware/xiaomi
 git clone --depth=1 https://github.com/LineageOS/android_hardware_sony_timekeep hardware/sony/timekeep
+
+# patches
 #cd vendor/aosp
 #git fetch https://github.com/pos-gm/vendor_aosp && git cherry-pick 2a8e8eeb913c27618f903a88d243fa268b6a4cbe
 #cd ../..
