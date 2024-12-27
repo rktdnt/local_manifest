@@ -19,7 +19,7 @@ git clone --depth=1 https://github.com/plrine/android_device_xiaomi_msm8953-comm
 git clone --depth=1 https://github.com/plrine/proprietary_vendor_xiaomi_msm8953-common vendor/xiaomi/msm8953-common
 git clone --depth=1 https://github.com/plrine/android_device_xiaomi_tissot device/xiaomi/tissot
 git clone --depth=1 https://github.com/plrine/proprietary_vendor_xiaomi_tissot vendor/xiaomi/tissot
-git clone --depth=1 https://github.com/plrine/android_kernel_xiaomi_msm8953 kernel/xiaomi/msm8953 -b lineage-21
+git clone --depth=1 https://github.com/plrine/android_kernel_xiaomi_msm8953 kernel/xiaomi/msm8953
 git clone --depth=1 https://github.com/plrine/hardware_xiaomi hardware/xiaomi
 git clone --depth=1 https://github.com/LineageOS/android_hardware_sony_timekeep hardware/sony/timekeep
 
@@ -30,9 +30,9 @@ git clone --depth=1 https://github.com/LineageOS/android_hardware_sony_timekeep 
 
 # hals
 rm -rf hardware/qcom-caf/msm8996/display
-#git clone --depth=1 https://github.com/LineageOS/android_hardware_qcom_media -b lineage-22.0-caf-msm8996 hardware/qcom-caf/msm8996/media
-#git clone --depth=1 https://github.com/LineageOS/android_hardware_qcom_audio -b lineage-22.0-caf-msm8996 hardware/qcom-caf/msm8996/audio
-git clone --depth=1 https://github.com/plrine/android_hardware_qcom_display -b lineage-22.0-caf-msm8996 hardware/qcom-caf/msm8996/display
+#git clone --depth=1 https://github.com/LineageOS/android_hardware_qcom_media -b lineage-22.1-caf-msm8996 hardware/qcom-caf/msm8996/media
+#git clone --depth=1 https://github.com/LineageOS/android_hardware_qcom_audio -b lineage-22.1-caf-msm8996 hardware/qcom-caf/msm8996/audio
+git clone --depth=1 https://github.com/plrine/android_hardware_qcom_display -b lineage-22.1-caf-msm8996 hardware/qcom-caf/msm8996/display
 
 #beelding
 . build/envsetup.sh
