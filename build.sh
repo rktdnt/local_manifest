@@ -6,7 +6,7 @@ set -e
 repo init -u https://github.com/accupara/los20.git -b lineage-20.0 --git-lfs
 crave set --projectID 36
 
-crave run --no-patch -- "curl -fsSL https://raw.githubusercontent.com/rktdnt/local_manifest/tissot/a.sh | bash" 
+crave run --no-patch --clean "curl -fsSL https://raw.githubusercontent.com/rktdnt/local_manifest/tissot-13/a.sh | bash" 
 
 # Clean up
 rm -rf tissot/
