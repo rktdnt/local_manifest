@@ -36,5 +36,5 @@ git clone --depth=1 https://github.com/plrine/hardware_xiaomi hardware/xiaomi -b
 
 #beelding
 . build/envsetup.sh
-lunch lineage_tissot-userdebug
+lunch lineage_tissot-user
 mka bacon -j$(nproc --all)
