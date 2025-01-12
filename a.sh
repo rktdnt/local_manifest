@@ -15,8 +15,8 @@ git clone --depth=1 https://github.com/rktdnt/p3 vendor/lineage-priv/keys
 
 # trees
 rm -rf */xiaomi
-git clone --depth=1 https://github.com/plrine/android_device_xiaomi_msm8953-common device/xiaomi/msm8953-common -b lineage-20
-git clone --depth=1 https://github.com/plrine/proprietary_vendor_xiaomi_msm8953-common vendor/xiaomi/msm8953-common -b lineage-20
+git clone --depth=1 https://github.com/plrine/android_device_xiaomi_msm8953-common device/xiaomi/msm8953-common -b ril-fcked
+git clone --depth=1 https://github.com/plrine/proprietary_vendor_xiaomi_msm8953-common vendor/xiaomi/msm8953-common -b ril-fcked
 git clone --depth=1 https://github.com/plrine/android_device_xiaomi_tissot device/xiaomi/tissot -b lineage-20
 git clone --depth=1 https://github.com/plrine/proprietary_vendor_xiaomi_tissot vendor/xiaomi/tissot -b lineage-20
 git clone --depth=1 https://github.com/plrine/android_kernel_xiaomi_msm8953 kernel/xiaomi/msm8953
