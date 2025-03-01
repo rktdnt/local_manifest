@@ -28,12 +28,6 @@ git clone --depth=1 https://github.com/LineageOS/android_hardware_sony_timekeep 
 #git fetch https://github.com/pos-gm/vendor_aosp && git cherry-pick 2a8e8eeb913c27618f903a88d243fa268b6a4cbe
 #cd ../..
 
-# hals
-rm -rf hardware/qcom-caf/msm8996/display
-#git clone --depth=1 https://github.com/LineageOS/android_hardware_qcom_media -b lineage-22.1-caf-msm8996 hardware/qcom-caf/msm8996/media
-#git clone --depth=1 https://github.com/LineageOS/android_hardware_qcom_audio -b lineage-22.1-caf-msm8996 hardware/qcom-caf/msm8996/audio
-git clone --depth=1 https://github.com/plrine/android_hardware_qcom_display -b lineage-22.1-caf-msm8996 hardware/qcom-caf/msm8996/display
-
 #beelding
 . build/envsetup.sh
 lunch lineage_tissot-ap3a-userdebug
