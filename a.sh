@@ -28,6 +28,8 @@ git clone --depth=1 https://github.com/plrine/hardware_xiaomi hardware/xiaomi -b
 #git fetch https://github.com/pos-gm/vendor_aosp && git cherry-pick 2a8e8eeb913c27618f903a88d243fa268b6a4cbe
 #cd ../..
 
+git clone --depth=1 https://github.com/LineageOS/android_packages_resources_devicesettings packages/resources/devicesettings -b lineage-20.0
+
 # hals
 #rm -rf hardware/qcom-caf/msm8996/display
 git clone --depth=1 https://github.com/LineageOS/android_hardware_qcom_media -b lineage-20.0-caf-msm8996 hardware/qcom-caf/msm8996/media
