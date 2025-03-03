@@ -1,5 +1,5 @@
 #
-repo init -u https://github.com/crdroidandroid/android.git -b 13.0 --git-lfs
+repo init -u https://github.com/superior-lts/manifest.git -b thirteen --depth=1
 /opt/crave/resync.sh
 
 # signing
@@ -15,8 +15,8 @@ git clone --depth=1 https://github.com/rktdnt/p3 vendor/lineage-priv/keys
 
 # trees
 rm -rf */xiaomi
-git clone --depth=1 https://github.com/plrine/android_device_xiaomi_msm8953-common device/xiaomi/msm8953-common -b ril-fcked
-git clone --depth=1 https://github.com/plrine/proprietary_vendor_xiaomi_msm8953-common vendor/xiaomi/msm8953-common -b ril-fcked
+git clone --depth=1 https://github.com/plrine/android_device_xiaomi_msm8953-common device/xiaomi/msm8953-common -b lineage-20
+git clone --depth=1 https://github.com/plrine/proprietary_vendor_xiaomi_msm8953-common vendor/xiaomi/msm8953-common -b lineage-20
 git clone --depth=1 https://github.com/plrine/android_device_xiaomi_tissot device/xiaomi/tissot -b lineage-20
 git clone --depth=1 https://github.com/plrine/proprietary_vendor_xiaomi_tissot vendor/xiaomi/tissot -b lineage-20
 git clone --depth=1 https://github.com/plrine/android_kernel_xiaomi_msm8953 kernel/xiaomi/msm8953
@@ -30,11 +30,11 @@ git clone --depth=1 https://github.com/plrine/hardware_xiaomi hardware/xiaomi -b
 
 # hals
 #rm -rf hardware/qcom-caf/msm8996/display
-#git clone --depth=1 https://github.com/LineageOS/android_hardware_qcom_media -b lineage-22.1-caf-msm8996 hardware/qcom-caf/msm8996/media
-#git clone --depth=1 https://github.com/LineageOS/android_hardware_qcom_audio -b lineage-22.1-caf-msm8996 hardware/qcom-caf/msm8996/audio
-#git clone --depth=1 https://github.com/plrine/android_hardware_qcom_display -b lineage-22.1-caf-msm8996 hardware/qcom-caf/msm8996/display
+git clone --depth=1 https://github.com/LineageOS/android_hardware_qcom_media -b lineage-20.0-caf-msm8996 hardware/qcom-caf/msm8996/media
+git clone --depth=1 https://github.com/LineageOS/android_hardware_qcom_audio -b lineage-20.0-caf-msm8996 hardware/qcom-caf/msm8996/audio
+git clone --depth=1 https://github.com/LineageOS/android_hardware_qcom_display -b lineage-20.0-caf-msm8996 hardware/qcom-caf/msm8996/display
 
 #beelding
 . build/envsetup.sh
-lunch lineage_tissot-user
-mka bacon -j$(nproc --all)
+lunch superior_tissot-user
+m bacon -j$(nproc --all)
