@@ -35,6 +35,8 @@ git clone --depth=1 https://github.com/LineageOS/android_packages_resources_devi
 git clone --depth=1 https://github.com/LineageOS/android_hardware_qcom_media -b lineage-20.0-caf-msm8996 hardware/qcom-caf/msm8996/media
 git clone --depth=1 https://github.com/LineageOS/android_hardware_qcom_audio -b lineage-20.0-caf-msm8996 hardware/qcom-caf/msm8996/audio
 git clone --depth=1 https://github.com/LineageOS/android_hardware_qcom_display -b lineage-20.0-caf-msm8996 hardware/qcom-caf/msm8996/display
+#cp hardware/qcom-caf/common/os_pickup_qssi.bp hardware/qcom-caf/msm8996/Android.bp
+#cp hardware/qcom-caf/common/os_pickup.mk hardware/qcom-caf/msm8996/Android.mk
 
 #beelding
 . build/envsetup.sh
