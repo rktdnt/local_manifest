@@ -1,5 +1,6 @@
 #
 repo init -u https://github.com/superior-lts/manifest.git -b thirteen --depth=1
+rm -rf external/chromium-webview
 /opt/crave/resync.sh
 
 # signing
