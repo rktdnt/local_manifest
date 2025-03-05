@@ -1,6 +1,5 @@
 #
-repo init -u https://github.com/superior-lts/manifest.git -b thirteen --depth=1
-rm -rf external/chromium-webview
+repo init -u https://github.com/crdroidandroid/android.git -b 13.0 --git-lfs
 /opt/crave/resync.sh
 
 # signing
@@ -29,17 +28,15 @@ git clone --depth=1 https://github.com/plrine/hardware_xiaomi hardware/xiaomi -b
 #git fetch https://github.com/pos-gm/vendor_aosp && git cherry-pick 2a8e8eeb913c27618f903a88d243fa268b6a4cbe
 #cd ../..
 
-git clone --depth=1 https://github.com/LineageOS/android_packages_resources_devicesettings packages/resources/devicesettings -b lineage-20.0
-
 # hals
 #rm -rf hardware/qcom-caf/msm8996/display
-git clone --depth=1 https://github.com/LineageOS/android_hardware_qcom_media -b lineage-20.0-caf-msm8996 hardware/qcom-caf/msm8996/media
-git clone --depth=1 https://github.com/LineageOS/android_hardware_qcom_audio -b lineage-20.0-caf-msm8996 hardware/qcom-caf/msm8996/audio
-git clone --depth=1 https://github.com/LineageOS/android_hardware_qcom_display -b lineage-20.0-caf-msm8996 hardware/qcom-caf/msm8996/display
+#git clone --depth=1 https://github.com/LineageOS/android_hardware_qcom_media -b lineage-20.0-caf-msm8996 hardware/qcom-caf/msm8996/media
+#git clone --depth=1 https://github.com/LineageOS/android_hardware_qcom_audio -b lineage-20.0-caf-msm8996 hardware/qcom-caf/msm8996/audio
+#git clone --depth=1 https://github.com/LineageOS/android_hardware_qcom_display -b lineage-20.0-caf-msm8996 hardware/qcom-caf/msm8996/display
 #cp hardware/qcom-caf/common/os_pickup_qssi.bp hardware/qcom-caf/msm8996/Android.bp
 #cp hardware/qcom-caf/common/os_pickup.mk hardware/qcom-caf/msm8996/Android.mk
 
 #beelding
 . build/envsetup.sh
-lunch superior_tissot-user
-m bacon -j$(nproc --all)
+lunch lineage_tissot-user
+mka bacon -j$(nproc --all)
