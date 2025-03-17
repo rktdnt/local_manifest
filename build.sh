@@ -3,10 +3,10 @@
 set -e
 #Credit to Meghthedev for the initial script 
 # Initialize repo with specified manifest
-repo init -u https://github.com/accupara/los22.git -b lineage-22.0 --git-lfs
-crave set --projectID 93
+repo init -u https://android.googlesource.com/platform/manifest -b android-15.0.0_r17
+crave set --projectID 35
 
-crave run --no-patch -- "curl -fsSL https://raw.githubusercontent.com/rktdnt/local_manifest/tissot/a.sh | bash" 
+crave run --no-patch -- "curl -fsSL https://raw.githubusercontent.com/rktdnt/local_manifest/rmx2001/a.sh | bash" 
 
 # Clean up
 rm -rf tissot/
