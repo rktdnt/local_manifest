@@ -19,5 +19,5 @@ git clone --depth=1 https://github.com/halcyonproject/device_mediatek_sepolicy_v
 
 #beelding
 . build/envsetup.sh
-lunch halcyon_tissot-ap4a-userdebug
+lunch halcyon_RMX2001L1-ap4a-userdebug
 make carthage -j$(nproc --all)
