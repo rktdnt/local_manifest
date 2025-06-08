@@ -18,5 +18,5 @@ git clone --depth=1 https://github.com/LineageOS/android_device_mediatek_sepolic
 
 #beelding
 . build/envsetup.sh
-lunch lineage_pond-ap3a-eng
+lunch lineage_pond-ap2a-eng
 make bacon -j$(nproc --all)
