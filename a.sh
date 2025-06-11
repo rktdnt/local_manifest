@@ -10,11 +10,12 @@
 # trees
 rm -rf */xiaomi
 git clone --depth=1 https://github.com/plrine/android_device_xiaomi_pond device/xiaomi/pond
+git clone --depth=1 https://github.com/plrine/device_xiaomi_pond-kernel device/xiaomi/pond-kernel
 git clone --depth=1 https://github.com/plrine/proprietary_vendor_xiaomi_pond vendor/xiaomi/pond
 
-git clone --depth=1 https://github.com/LineageOS/android_hardware_mediatek hardware/mediatek -b lineage-21.0
-git clone --depth=1 https://github.com/LineageOS/android_hardware_xiaomi hardware/xiaomi -b lineage-21.0
-git clone --depth=1 https://github.com/LineageOS/android_device_mediatek_sepolicy_vndr device/mediatek/sepolicy_vndr -b lineage-21.0
+git clone --depth=1 https://github.com/LineageOS/android_hardware_mediatek hardware/mediatek -b lineage-21
+git clone --depth=1 https://github.com/LineageOS/android_hardware_xiaomi hardware/xiaomi -b lineage-21
+git clone --depth=1 https://github.com/LineageOS/android_device_mediatek_sepolicy_vndr device/mediatek/sepolicy_vndr -b lineage-21
 
 #beelding
 . build/envsetup.sh
