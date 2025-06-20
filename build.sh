@@ -9,7 +9,7 @@ crave set --projectID 72
 crave run --no-patch -- "curl -fsSL https://raw.githubusercontent.com/rktdnt/local_manifest/pond/a.sh | bash" 
 
 # Clean up
-rm -rf tissot/
+rm -rf pond/
 
 # Pull generated zip files
 crave pull out/target/product/*/*.zip 
