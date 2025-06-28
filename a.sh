@@ -7,6 +7,8 @@
 
 #git clone https://github.com/rktdnt/p3 -b 15.1 vendor/extra
 
+cp device/xiaomi/pond-kernel/dtb.img out/target/product/pond/
+
 # trees
 rm -rf */xiaomi
 git clone --depth=1 https://github.com/plrine/device_xiaomi_pond device/xiaomi/pond -b lineage-21
