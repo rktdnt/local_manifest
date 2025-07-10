@@ -12,7 +12,7 @@ cp device/xiaomi/pond-kernel/dtb.img out/target/product/pond/
 # trees
 rm -rf */xiaomi
 git clone --depth=1 https://github.com/plrine/device_xiaomi_pond device/xiaomi/pond -b lineage-21
-git clone --depth=1 https://github.com/plrine/device_xiaomi_pond-kernel device/xiaomi/pond-kernel -b dtb
+git clone --depth=1 https://github.com/plrine/device_xiaomi_pond-kernel device/xiaomi/pond-kernel -b lineage-21
 git clone --depth=1 https://github.com/plrine/vendor_xiaomi_pond vendor/xiaomi/pond -b lineage-21
 
 git clone --depth=1 https://github.com/LineageOS/android_hardware_mediatek hardware/mediatek -b lineage-21
