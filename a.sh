@@ -1,5 +1,5 @@
 #
-repo init -u https://github.com/pos-fog/manifest.git -b fifteen --git-lfs
+repo init -u https://github.com/plrine/manifest -b fifteen --git-lfs
 /opt/crave/resync.sh
 
 # signing
