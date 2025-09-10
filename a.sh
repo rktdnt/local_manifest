@@ -1,5 +1,8 @@
 #
 repo init -u https://github.com/plrine/manifest -b fifteen --git-lfs
+rm -rf hardware/qcom/sm8150
+rm -rf hardware/qcom/sm7250
+
 /opt/crave/resync.sh
 
 # signing
