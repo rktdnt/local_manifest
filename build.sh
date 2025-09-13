@@ -3,8 +3,8 @@
 set -e
 #Credit to Meghthedev for the initial script 
 # Initialize repo with specified manifest
-repo init -u https://github.com/PixelOS-AOSP/manifest -b fifteen --git-lfs
-crave set --projectID 82
+repo init -u https://github.com/RisingOS-Revived/android -b fifteen --git-lfs
+crave set --projectID 86
 
 crave run --no-patch -- "curl -fsSL https://raw.githubusercontent.com/rktdnt/local_manifest/surya/a.sh | bash" 
 
