@@ -8,7 +8,7 @@ git clone --depth=1 https://github.com/rktdnt/p3 vendor/lineage-priv/keys
 
 rm -rf hardware/qcom/sm7250/Android.bp
 rm -rf hardware/qcom/sm8150/Android.bp
-
+rm -rf hardware/qcom/sdm845/Android.bp
 
 #rm -rf vendor/aosp/signing/keys
 #git clone https://github.com/rktdnt/p3 -b pos vendor/aosp/signing/keys
