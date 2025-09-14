@@ -18,7 +18,7 @@ rm -rf */xiaomi
 git clone --depth=1 https://github.com/plrine/android_device_xiaomi_surya device/xiaomi/surya
 git clone --depth=1 https://github.com/plrine/proprietary_vendor_xiaomi_surya vendor/xiaomi/surya
 git clone --depth=1 https://github.com/plrine/kernel_xiaomi_surya kernel/xiaomi/surya
-git clone --depth=1 https://github.com/plrine/android_hardware_xiaomi hardware/xiaomi
+git clone --depth=1 https://github.com/LineageOS/android_hardware_xiaomi hardware/xiaomi
 
 # patches
 #cd vendor/aosp
