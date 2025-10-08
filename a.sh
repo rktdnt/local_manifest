@@ -15,6 +15,7 @@ git clone --depth=1 https://github.com/plrine/android_device_xiaomi_surya device
 git clone --depth=1 https://gitlab.com/crdroidandroid/proprietary_vendor_xiaomi_surya vendor/xiaomi/surya
 git clone --depth=1 https://github.com/crdroidandroid/android_kernel_xiaomi_surya kernel/xiaomi/surya
 git clone --depth=1 https://github.com/crdroidandroid/android_hardware_xiaomi hardware/xiaomi
+git clone --depth=1 https://github.com/bulla0x/leica_camera vendor/xiaomi/miuicamera
 
 # patches
 #cd vendor/aosp
