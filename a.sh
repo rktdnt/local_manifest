@@ -1,14 +1,10 @@
 #
-repo init -u https://github.com/RisingOS-Revived/android -b qpr2 --git-lfs
+repo init -u https://github.com/RisingOS-Revived/android -b sixteen --git-lfs
 /opt/crave/resync.sh
 
 # signing
 rm -rf vendor/lineage-priv/keys
 git clone --depth=1 https://github.com/rktdnt/p3 vendor/lineage-priv/keys
-
-rm -rf hardware/qcom/sm7250/Android.bp
-rm -rf hardware/qcom/sm8150/Android.bp
-rm -rf hardware/qcom/sdm845/Android.bp
 
 #rm -rf vendor/aosp/signing/keys
 #git clone https://github.com/rktdnt/p3 -b pos vendor/aosp/signing/keys
@@ -16,9 +12,9 @@ rm -rf hardware/qcom/sdm845/Android.bp
 # trees
 rm -rf */xiaomi
 git clone --depth=1 https://github.com/plrine/android_device_xiaomi_surya device/xiaomi/surya
-git clone --depth=1 https://github.com/plrine/proprietary_vendor_xiaomi_surya vendor/xiaomi/surya
-git clone --depth=1 https://github.com/plrine/kernel_xiaomi_surya kernel/xiaomi/surya
-git clone --depth=1 https://github.com/LineageOS/android_hardware_xiaomi hardware/xiaomi
+git clone --depth=1 https://gitlab.com/crdroidandroid/proprietary_vendor_xiaomi_surya vendor/xiaomi/surya
+git clone --depth=1 https://github.com/crdroidandroid/android_kernel_xiaomi_surya kernel/xiaomi/surya
+git clone --depth=1 https://github.com/crdroidandroid/android_hardware_xiaomi hardware/xiaomi
 
 # patches
 #cd vendor/aosp
