@@ -17,6 +17,12 @@ git clone --depth=1 https://github.com/crdroidandroid/android_kernel_xiaomi_sury
 git clone --depth=1 https://github.com/crdroidandroid/android_hardware_xiaomi hardware/xiaomi
 git clone --depth=1 https://github.com/bulla0x/leica_camera vendor/xiaomi/miuicamera
 
+# ant
+git clone --depth=1 https://github.com/LineageOS/android_external_ant-wireless_ant_client external/ant-wireless/ant_client
+git clone --depth=1 https://github.com/LineageOS/android_external_ant-wireless_ant_native external/ant-wireless/ant_native
+git clone --depth=1 https://github.com/LineageOS/android_external_ant-wireless_ant_service external/ant-wireless/ant_service
+git clone --depth=1 https://github.com/LineageOS/android_external_ant-wireless_hidl external/ant-wireless/hidl
+
 # patches
 #cd vendor/aosp
 #git fetch https://github.com/pos-gm/vendor_aosp && git cherry-pick 2a8e8eeb913c27618f903a88d243fa268b6a4cbe
